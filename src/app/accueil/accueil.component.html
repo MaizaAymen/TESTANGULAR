@@ -1,0 +1,38 @@
+<body>
+    <nav class="navbar">
+        <div class="logo">MyWebsite</div>
+        
+        <ul class="nav-links">
+            <mat-toolbar color="primary">
+            <span>Mon Application</span>
+            <span class="spacer"></span>
+            <a href="#">Déconnexion</a>
+          </mat-toolbar>
+          <li><a routerLink="acc" routerLinkActive="active">Home</a></li>
+          <li><a routerLink="conn" routerLinkActive="active">About</a></li>
+          <li><a routerLink="pann" routerLinkActive="active">panier</a></li>
+          <li><a routerLink="inscri" routerLinkActive="active">inscription</a></li>
+          <li><a routerLink="comm" routerLinkActive="active">commande</a></li>
+          <li><a href="#">dec</a></li>
+        </ul>
+    </nav>
+              <h1 >acceuil</h1>
+    <form action="/ma-page-de-traitement" method="post">
+        <ul>
+          <li>
+            <label for="name">Nom&nbsp;:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">E-mail&nbsp;:</label>
+            <input type="email" id="mail" name="user_mail" />
+          </li>
+          <li>
+            <label for="msg">Message&nbsp;:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+        </ul>
+      </form>
+    <p>accuiel</p>
+</body>
+
